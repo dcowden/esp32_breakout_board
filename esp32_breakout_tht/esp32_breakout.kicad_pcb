@@ -6611,6 +6611,17 @@
 		(uuid "0d5939f8-fd4e-467b-8466-9ec6741147bd")
 	)
 	(gr_rect
+		(start 0 0)
+		(end 54.903409 64.008)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3552c010-21c0-46b1-aa22-6aa90a3e753b")
+	)
+	(gr_rect
 		(start 21.336 57.023)
 		(end 32.131 60.071)
 		(stroke

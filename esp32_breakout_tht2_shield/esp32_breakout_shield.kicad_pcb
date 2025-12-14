@@ -3172,6 +3172,17 @@
 		(layer "Edge.Cuts")
 		(uuid "dcb98905-3232-48db-a635-3885312e4bd7")
 	)
+	(gr_rect
+		(start 0 0)
+		(end 54.991 64.008)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d8d3a508-dcea-456f-b345-6e745314d3cc")
+	)
 	(gr_text "13"
 		(at 7.62 46.99 0)
 		(layer "F.Fab")
