@@ -1,4 +1,4 @@
-26724204240942124
+26733032491601348
 AP2112K-3.3TRG1
 SOT95P285X140-5N
 
@@ -61403,6 +61403,13 @@ MODULE_ESP32-DEVKITC-32D
 0
 38
 38
+ESP32-DEVKITC-32D
+MODULE_ESP32-DEVKITC-32D-THT
+
+
+0
+38
+38
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -106385,3 +106392,31 @@ XIAO_NRF52840
 0
 32
 32
+esp32-devkitc-github
+ESP32-DevKitM-1
+ESP32-DevKitC: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html
+ESP32
+0
+34
+34
+esp32-devkitc-github
+ESP32-S2-DevKitC-1
+ESP32-S2 general-purpose development board, based on ESP32-S2-SOLO or ESP32-S2-SOLO-U,It has all the ESP32-S2 pins exposed and is easy to connect and use.
+ESP32-S2
+0
+44
+44
+esp32-devkitc-github
+ESP32-S3-DevKitC
+ESP32-S3 general-purpose development board, based on ESP32-S3-WROOM-1 or ESP32-S3-WROOM-1U,It has all the ESP32-S3 pins exposed and is easy to connect and use.
+ESP32-S3
+0
+44
+44
+esp32-devkitc-github
+esp32-devkitc-github
+ESP32-DevKitC: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html
+ESP32
+0
+38
+38
