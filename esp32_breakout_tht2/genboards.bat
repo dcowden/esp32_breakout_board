@@ -68,7 +68,7 @@ REM mask.png     Run this at power to burn off more paint
 REM edges.png    Run this at cutting power to cut edge and holes
 
 set PROG="C:\Program Files\KiCad\9.0\bin\kicad-cli"
-set SOURCE_FILE="%1"
+set SOURCE_FILE="esp32_breakout.kicad_pcb"
 set OUT_FILE=".\board_art"
 set DPI="1200"
 set KERF_PX="6"
@@ -98,6 +98,6 @@ magick %OUT_FILE%\front.png -morphology Dilate Disk:%KERF_PX%  %OUT_FILE%\front_
 %PROG% pcb export svg --output %OUT_FILE%\mask-front.svg --black-and-white --theme "KiCad Classic" --layers F.Mask,Edge.Cuts --exclude-drawing-sheet %SOURCE_FILE%
 magick convert -density %DPI% %OUT_FILE%\mask-front.svg  %OUT_FILE%\mask-front.png
 magick %OUT_FILE%\mask-front.png -morphology Dilate Disk:%KERF_PX%  %OUT_FILE%\mask-front_kerf.png
-%PROG% pcb export dxf --output %OUT_FILE%\front-silkscreen.dxf --layers F.Silkscreen,Edge.Cuts  --output-units mm %SOURCE_FILE%
+%PROG% pcb export dxf --output %OUT_FILE%\front-silkscreen.dxf --layers F.Fab,Edge.Cuts  --output-units mm %SOURCE_FILE%
 
 
