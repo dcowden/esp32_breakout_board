@@ -1060,7 +1060,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 120.65 49.53 0)
+		(at 120.65 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1069,7 +1069,7 @@
 		)
 		(uuid "0221e9b4-5852-4af5-a64c-e8e5676693ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.65 49.53 0)
+			(at 120.65 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1100,7 +1100,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 120.65 62.23 0)
+		(at 120.65 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1109,7 +1109,7 @@
 		)
 		(uuid "3b4b8059-36b6-4c4d-b7f9-d0b47efd135e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.65 62.23 0)
+			(at 120.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
